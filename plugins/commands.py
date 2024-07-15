@@ -253,7 +253,7 @@ async def start(client, message):
                     )
                 if STREAM_MODE == True:
                     button = [[
-                        InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{GRP_LNK}'),
+                        InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
                         InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_main_bot?start")
@@ -263,7 +263,7 @@ async def start(client, message):
                     ]]
                 else:
                     button = [[
-                        InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{GRP_LNK}'),
+                        InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
                         InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_main_bot?start")
@@ -448,7 +448,7 @@ async def start(client, message):
                     return
             if STREAM_MODE == True:
                 button = [[
-                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{GRP_LNK}'),
+                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
                     InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_main_bot?start")
@@ -457,7 +457,7 @@ async def start(client, message):
                 ]]
             else:
                 button = [[
-                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{GRP_LNK}'),
+                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
                     InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_main_bot?start")
@@ -521,7 +521,7 @@ async def start(client, message):
                     return
             if STREAM_MODE == True:
                 button = [[
-                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{GRP_LNK}'),
+                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
                     InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_main_bot?start")
@@ -530,7 +530,7 @@ async def start(client, message):
                 ]]
             else:
                 button = [[
-                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{GRP_LNK}'),
+                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
                     InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_main_bot?start")
@@ -593,7 +593,7 @@ async def start(client, message):
             return
     if STREAM_MODE == True:
         button = [[
-            InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{GRP_LNK}'),
+            InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
             InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
         ],[
             InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_main_bot?start")
@@ -602,7 +602,7 @@ async def start(client, message):
         ]]
     else:
         button = [[
-            InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{GRP_LNK}'),
+            InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
             InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
         ],[
             InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_main_bot?start")
