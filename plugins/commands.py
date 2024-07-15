@@ -256,7 +256,7 @@ async def start(client, message):
                         InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_main_bot?start")
+                        InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_bot?start")
                     ],[
                         InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
                         InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
@@ -266,7 +266,7 @@ async def start(client, message):
                         InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_main_bot?start")
+                        InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_bot?start")
                     ]]
                 msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -451,7 +451,7 @@ async def start(client, message):
                     InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_main_bot?start")
+                    InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_bot?start")
                 ],[
                     InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
                 ]]
@@ -460,7 +460,7 @@ async def start(client, message):
                     InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_main_bot?start")
+                    InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_bot?start")
                 ]]
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -524,7 +524,7 @@ async def start(client, message):
                     InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_main_bot?start")
+                    InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_bot?start")
                 ],[
                     InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
                 ]]
@@ -533,7 +533,7 @@ async def start(client, message):
                     InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_main_bot?start")
+                    InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_bot?start")
                 ]]
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -596,7 +596,7 @@ async def start(client, message):
             InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
             InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
         ],[
-            InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_main_bot?start")
+            InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_bot?start")
         ],[
             InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
         ]]
@@ -605,7 +605,7 @@ async def start(client, message):
             InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
             InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
         ],[
-            InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_main_bot?start")
+            InlineKeyboardButton('✇ ꜱʜᴀʀᴇ ᴏᴜʀ ʙᴏᴛ ✇', url="https://t.me/share/url?url=https://t.me/dps_movies_bot?start")
         ]]
     msg = await client.send_cached_media(
         chat_id=message.from_user.id,
