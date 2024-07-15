@@ -1193,7 +1193,7 @@ async def shortlink(bot, message):
         return await message.reply(f"You are anonymous admin. Turn off anonymous admin and try again this command")
     chat_type = message.chat.type
     if chat_type == enums.ChatType.PRIVATE:
-        return await message.reply_text(f"<b>Hey {message.from_user.mention}, This command only works on groups !\n\n<u>Follow These Steps to Connect Shortener:</u>\n\n1. Add Me in Your Group with Full Admin Rights\n\n2. After Adding in Grp, Set your Shortener\n\nSend this command in your group\n\n—> /shortlink ""{your_shortener_website_name} {your_shortener_api}\n\n#Sample:-\n/shortlink Googlyurl.com CAgUAAxkBAAEJ4GtkyPgEzpIUC_DSmirN6eFWp4\n\nThat's it!!! Enjoy Earning Money 💲\n\n[[[ Trusted Earning Site - https://googlyurl.com]]]\n\nIf you have any Doubts, Feel Free to Ask me - @piyuyt\n\n(Puriyala na intha contact la message pannunga - @piyuyt)</b>")
+        return await message.reply_text(f"<b>Hey {message.from_user.mention}, This command only works on groups !\n\n<u>Follow These Steps to Connect Shortener:</u>\n\n1. Add Me in Your Group with Full Admin Rights\n\n2. After Adding in Grp, Set your Shortener\n\nSend this command in your group\n\n—> /shortlink ""{your_shortener_website_name} {your_shortener_api}\n\n#Sample:-\n/shortlink Googlyurl.com CAgUAAxkBAAEJ4GtkyPgEzpIUC_DSmirN6eFWp4\n\nThat's it!!! Enjoy Earning Money 💲\n\n[[[ Trusted Earning Site - https://googlyurl.com]]]\n\nIf you have any Doubts, Feel Free to Ask me - @dps_contact_bot\n\n(Puriyala na intha contact la message pannunga - @dps_contact_bot)</b>")
     elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         grpid = message.chat.id
         title = message.chat.title
@@ -1459,7 +1459,7 @@ async def remove_premium_cmd_handler(client, message):
             await message.reply_text("Premium access removed to the user.")
             await client.send_message(
                 chat_id=user_id,
-                text=f"<b>premium removed by admins \n\n Contact Admin if this is mistake \n\n 👮 Admin : @piyuyt \n</b>",                
+                text=f"<b>premium removed by admins \n\n Contact Admin if this is mistake \n\n 👮 Admin : @dps_contact_bot \n</b>",                
             )
         else:
             await message.reply_text("Invalid time format.'")
